@@ -5,6 +5,10 @@ from peewee import *
 import time, datetime
 import userservicetest as dbsrc
 import userservicebak as dbdst
+import log as logmj
+
+logfile = 'baksql.log'
+log = logmj.console_set(logfile, lvl=1)
 
 # db_dst = MySQLDatabase('userservicebak', **{'host': '172.21.12.120', 'password': 'tmp', 'user': 'tmp', 'charset':'utf8'})
 # CREATE DATABASE IF NOT EXISTS userservicebak DEFAULT CHARSET utf8 COLLATE utf8_general_ci ;
@@ -14,8 +18,10 @@ import userservicebak as dbdst
 # elecimage = dbsrc.Elecimage.select().join(dbsrc.Elecimage)
 
 def time_txt():
-    # return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    #return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+def time_ms():
+    return  time.time()
 
 def find_max_id(dbname, tbname, tbkey):
     # args : dbname, tbname, tbkey , all are string
@@ -121,9 +127,5 @@ if __name__ == "__main__":
                 insert_data('dbdst', tbname, select_data)
     except Exception, e:
         print e
-
-
-
-
 
 
