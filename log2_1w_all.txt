@@ -1,0 +1,62 @@
+E:\homewk\python\py2\python.exe E:/homewk/python/tools/pycharm_ws/demo/peeDemo.py
+dbsrc.Appinfo.appinfo  max_id =  142599450
+dbdst.Appinfo.appinfo  max_id =  1121241
+dbsrc.Appinfo 10000  select finish : 2017-09-28 17:35:38.309000
+dbdst.Appinfo 5000  insert_data finish : 2017-09-28 17:35:39.655000
+dbdst.Appinfo 10000  insert_data finish : 2017-09-28 17:35:40.541000
+dbsrc.Appinstall.installid  max_id =  9531650
+dbdst.Appinstall.installid  max_id =  0
+dbsrc.Appinstall 10000  select finish : 2017-09-28 17:35:40.607000
+dbdst.Appinstall 5000  insert_data finish : 2017-09-28 17:35:41.992000
+dbdst.Appinstall 10000  insert_data finish : 2017-09-28 17:35:42.852000
+dbsrc.Baseinfo.baseinfo  max_id =  461722
+dbdst.Baseinfo.baseinfo  max_id =  0
+dbsrc.Baseinfo 10000  select finish : 2017-09-28 17:35:42.878000
+dbdst.Baseinfo 5000  insert_data finish : 2017-09-28 17:35:44.189000
+dbdst.Baseinfo 10000  insert_data finish : 2017-09-28 17:35:45.036000
+dbsrc.Chargeinfo.id  max_id =  25723267
+dbdst.Chargeinfo.id  max_id =  0
+dbsrc.Chargeinfo 10000  select finish : 2017-09-28 17:35:45.072000
+dbdst.Chargeinfo 5000  insert_data finish : 2017-09-28 17:35:46.421000
+dbdst.Chargeinfo 10000  insert_data finish : 2017-09-28 17:35:47.281000
+dbsrc.Elecimage.i  max_id =  6
+dbdst.Elecimage.i  max_id =  6
+dbsrc.Electroniccard.card  max_id =  652032
+dbdst.Electroniccard.card  max_id =  0
+dbsrc.Electroniccard 10000  select finish : 2017-09-28 17:35:47.316000
+dbdst.Electroniccard 5000  insert_data finish : 2017-09-28 17:35:50.809000
+dbdst.Electroniccard 10000  insert_data finish : 2017-09-28 17:35:53.385000
+dbsrc.Feedbackprocess.processid  max_id =  170
+dbdst.Feedbackprocess.processid  max_id =  0
+dbsrc.Feedbackprocess 10000  select finish : 2017-09-28 17:35:53.403000
+dbdst.Feedbackprocess 170  insert_data finish : 2017-09-28 17:35:53.503000
+dbsrc.Imeinetwork.card  max_id =  652032
+dbdst.Imeinetwork.card  max_id =  0
+dbsrc.Imeinetwork 10000  select finish : 2017-09-28 17:35:53.951000
+dbdst.Imeinetwork 5000  insert_data finish : 2017-09-28 17:35:56.564000
+dbdst.Imeinetwork 10000  insert_data finish : 2017-09-28 17:35:58.351000
+dbsrc.Locationinfo.location  max_id =  32951
+dbdst.Locationinfo.location  max_id =  0
+dbsrc.Locationinfo 10000  select finish : 2017-09-28 17:35:58.373000
+dbdst.Locationinfo 5000  insert_data finish : 2017-09-28 17:35:59.751000
+dbdst.Locationinfo 10000  insert_data finish : 2017-09-28 17:36:00.762000
+dbsrc.Loginfo.logid  max_id =  20
+dbdst.Loginfo.logid  max_id =  0
+dbsrc.Loginfo 10000  select finish : 2017-09-28 17:36:00.782000
+dbdst.Loginfo 20  insert_data finish : 2017-09-28 17:36:00.806000
+dbsrc.Repairrecord.r  max_id =  16917
+dbdst.Repairrecord.r  max_id =  0
+dbsrc.Repairrecord 10000  select finish : 2017-09-28 17:36:00.823000
+dbdst.Repairrecord 5000  insert_data finish : 2017-09-28 17:36:02.680000
+dbdst.Repairrecord 10000  insert_data finish : 2017-09-28 17:36:04.116000
+dbsrc.Softwareversion.softversion  max_id =  1007832
+dbdst.Softwareversion.softversion  max_id =  0
+dbsrc.Softwareversion 10000  select finish : 2017-09-28 17:36:04.142000
+dbdst.Softwareversion 5000  insert_data finish : 2017-09-28 17:36:05.122000
+dbdst.Softwareversion 10000  insert_data finish : 2017-09-28 17:36:05.785000
+dbsrc.Userfeedback.userfeedback  max_id =  19145
+dbdst.Userfeedback.userfeedback  max_id =  0
+dbsrc.Userfeedback 10000  select finish : 2017-09-28 17:36:05.810000
+(2006, 'MySQL server has gone away')
+
+Process finished with exit code 0
